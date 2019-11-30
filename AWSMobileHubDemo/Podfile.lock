@@ -1,0 +1,52 @@
+PODS:
+  - AWSAuthCore (2.9.9):
+    - AWSCore (= 2.9.9)
+  - AWSCognitoIdentityProvider (2.9.9):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.9.9)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.9.9)
+  - AWSMobileClient (2.9.9):
+    - AWSAuthCore (= 2.9.9)
+    - AWSCognitoIdentityProvider (= 2.9.9)
+  - AWSPinpoint (2.9.9):
+    - AWSCore (= 2.9.9)
+  - IQKeyboardManagerSwift (6.4.0)
+  - MBProgressHUD (1.1.0)
+  - ReachabilitySwift (4.3.1)
+
+DEPENDENCIES:
+  - AWSCognitoIdentityProvider (~> 2.9.0)
+  - AWSCore (~> 2.9.0)
+  - AWSMobileClient
+  - AWSPinpoint
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPinpoint
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  AWSAuthCore: cf17233a3bb8fd8b6b8a80ec651c4d44f67e3e9e
+  AWSCognitoIdentityProvider: aab6a2cf2d6e734367b2b6ec6d89d24970d14398
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 705dbb60efeec05bc6bbee416e7f5e9837af0749
+  AWSMobileClient: f290953e3554a3b0a27eace67297b5f39775ed48
+  AWSPinpoint: 8db6dfcf61f879c8116818e68681d93483b4f29f
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+
+PODFILE CHECKSUM: 8fa8c31d52ecf25735fe4fcdb79e63e56a0f0750
+
+COCOAPODS: 1.5.3

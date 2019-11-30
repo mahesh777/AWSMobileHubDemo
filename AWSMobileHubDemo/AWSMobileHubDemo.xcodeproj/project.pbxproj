@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D6E620F22D08EC500A370FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E620E22D08EC500A370FE /* AppDelegate.swift */; };
+		3D6E621122D08EC500A370FE /* AWSUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E621022D08EC500A370FE /* AWSUserLoginViewController.swift */; };
+		3D6E621422D08EC500A370FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E621222D08EC500A370FE /* Main.storyboard */; };
+		3D6E621622D08EC700A370FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E621522D08EC700A370FE /* Assets.xcassets */; };
+		3D6E621922D08EC700A370FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E621722D08EC700A370FE /* LaunchScreen.storyboard */; };
+		3D6E622422D08EC700A370FE /* AWSMobileHubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E622322D08EC700A370FE /* AWSMobileHubDemoTests.swift */; };
+		3D6E623222D0948000A370FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E623122D0948000A370FE /* Constants.swift */; };
+		3D6E623422D0A94900A370FE /* AWSUserLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E623322D0A94900A370FE /* AWSUserLoginViewModel.swift */; };
+		3D6E623622D0AD4200A370FE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E623522D0AD4100A370FE /* awsconfiguration.json */; };
+		3D6E623C22D0B12D00A370FE /* AWSUserSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E623B22D0B12D00A370FE /* AWSUserSignUpViewModel.swift */; };
+		3D6E623E22D0B13F00A370FE /* AWSUserSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E623D22D0B13F00A370FE /* AWSUserSignUpViewController.swift */; };
+		3D6E624122D0B24D00A370FE /* VerifyUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E624022D0B24D00A370FE /* VerifyUserViewController.swift */; };
+		3D6E624322D0C7D400A370FE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E624222D0C7D400A370FE /* Extensions.swift */; };
+		3D6E624522D0D04500A370FE /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E624422D0D04500A370FE /* Global.swift */; };
+		3D6E624722D0DC2D00A370FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E624622D0DC2D00A370FE /* HomeViewController.swift */; };
+		3D6E643B22E2B65700A370FE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E643A22E2B65700A370FE /* ForgotPasswordViewController.swift */; };
+		3D6E643D22E3257C00A370FE /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E643C22E3257C00A370FE /* ResetPasswordViewController.swift */; };
+		3DE7490522E3429F001937C2 /* MultiFactorAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7490422E3429F001937C2 /* MultiFactorAuthViewController.swift */; };
+		3DE7490722E34582001937C2 /* MultiFactorAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7490622E34582001937C2 /* MultiFactorAuthViewController.xib */; };
+		3DE7490A22E4B173001937C2 /* AnalyticsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7490922E4B173001937C2 /* AnalyticsBuilder.swift */; };
+		3DE7490C22E4B18D001937C2 /* AnalyticsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7490B22E4B18D001937C2 /* AnalyticsConstants.swift */; };
+		3DE7490E22E4B2C9001937C2 /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7490D22E4B2C9001937C2 /* AnalyticsHelper.swift */; };
+		3DE7491222EDE455001937C2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE7491122EDE455001937C2 /* libsqlite3.0.tbd */; };
+		3DE7491422EDE468001937C2 /* libz.1.2.11.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE7491322EDE468001937C2 /* libz.1.2.11.tbd */; };
+		3DE7491622EDE46F001937C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE7491522EDE46F001937C2 /* SystemConfiguration.framework */; };
+		53E6818D68F32299EE1EB659 /* Pods_AWSMobileHubDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54730180B73E80924F9FF31 /* Pods_AWSMobileHubDemoTests.framework */; };
+		7F77A471C69AEFC22D89B912 /* Pods_AWSMobileHubDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BA5DBEC31EE52854269349 /* Pods_AWSMobileHubDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D6E622022D08EC700A370FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6E620322D08EC500A370FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6E620A22D08EC500A370FE;
+			remoteInfo = AWSMobileHubDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF8851C93A77DDE99972F88 /* Pods-AWSMobileHubDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubDemoTests/Pods-AWSMobileHubDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28BA5DBEC31EE52854269349 /* Pods_AWSMobileHubDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSMobileHubDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9C7BC6C3C1ADC1770487BF /* Pods-AWSMobileHubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubDemo/Pods-AWSMobileHubDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3D6E620B22D08EC500A370FE /* AWSMobileHubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSMobileHubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6E620E22D08EC500A370FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D6E621022D08EC500A370FE /* AWSUserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSUserLoginViewController.swift; sourceTree = "<group>"; };
+		3D6E621322D08EC500A370FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D6E621522D08EC700A370FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6E621822D08EC700A370FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6E621A22D08EC700A370FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6E621F22D08EC700A370FE /* AWSMobileHubDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSMobileHubDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6E622322D08EC700A370FE /* AWSMobileHubDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSMobileHubDemoTests.swift; sourceTree = "<group>"; };
+		3D6E622522D08EC700A370FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6E623122D0948000A370FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D6E623322D0A94900A370FE /* AWSUserLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSUserLoginViewModel.swift; sourceTree = "<group>"; };
+		3D6E623522D0AD4100A370FE /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		3D6E623B22D0B12D00A370FE /* AWSUserSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSUserSignUpViewModel.swift; sourceTree = "<group>"; };
+		3D6E623D22D0B13F00A370FE /* AWSUserSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSUserSignUpViewController.swift; sourceTree = "<group>"; };
+		3D6E624022D0B24D00A370FE /* VerifyUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyUserViewController.swift; sourceTree = "<group>"; };
+		3D6E624222D0C7D400A370FE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3D6E624422D0D04500A370FE /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3D6E624622D0DC2D00A370FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D6E643A22E2B65700A370FE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3D6E643C22E3257C00A370FE /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3DE7490422E3429F001937C2 /* MultiFactorAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFactorAuthViewController.swift; sourceTree = "<group>"; };
+		3DE7490622E34582001937C2 /* MultiFactorAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiFactorAuthViewController.xib; sourceTree = "<group>"; };
+		3DE7490922E4B173001937C2 /* AnalyticsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsBuilder.swift; sourceTree = "<group>"; };
+		3DE7490B22E4B18D001937C2 /* AnalyticsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsConstants.swift; sourceTree = "<group>"; };
+		3DE7490D22E4B2C9001937C2 /* AnalyticsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsHelper.swift; sourceTree = "<group>"; };
+		3DE7491122EDE455001937C2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3DE7491322EDE468001937C2 /* libz.1.2.11.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.11.tbd; path = usr/lib/libz.1.2.11.tbd; sourceTree = SDKROOT; };
+		3DE7491522EDE46F001937C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6B527E14676C6FB40639F1E7 /* Pods-AWSMobileHubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubDemo/Pods-AWSMobileHubDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A54730180B73E80924F9FF31 /* Pods_AWSMobileHubDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSMobileHubDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21F55AF9C4EB6B480E3DC15 /* Pods-AWSMobileHubDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubDemoTests/Pods-AWSMobileHubDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6E620822D08EC500A370FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE7491622EDE46F001937C2 /* SystemConfiguration.framework in Frameworks */,
+				3DE7491422EDE468001937C2 /* libz.1.2.11.tbd in Frameworks */,
+				3DE7491222EDE455001937C2 /* libsqlite3.0.tbd in Frameworks */,
+				7F77A471C69AEFC22D89B912 /* Pods_AWSMobileHubDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6E621C22D08EC700A370FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E6818D68F32299EE1EB659 /* Pods_AWSMobileHubDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1229B59F8758BE6B378F21B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7491522EDE46F001937C2 /* SystemConfiguration.framework */,
+				3DE7491322EDE468001937C2 /* libz.1.2.11.tbd */,
+				3DE7491122EDE455001937C2 /* libsqlite3.0.tbd */,
+				28BA5DBEC31EE52854269349 /* Pods_AWSMobileHubDemo.framework */,
+				A54730180B73E80924F9FF31 /* Pods_AWSMobileHubDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D6E620222D08EC500A370FE = {
+			isa = PBXGroup;
+			children = (
+				3D6E620D22D08EC500A370FE /* AWSMobileHubDemo */,
+				3D6E622222D08EC700A370FE /* AWSMobileHubDemoTests */,
+				3D6E620C22D08EC500A370FE /* Products */,
+				52E18A67ACA8F05B959D1982 /* Pods */,
+				1229B59F8758BE6B378F21B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6E620C22D08EC500A370FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E620B22D08EC500A370FE /* AWSMobileHubDemo.app */,
+				3D6E621F22D08EC700A370FE /* AWSMobileHubDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6E620D22D08EC500A370FE /* AWSMobileHubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E623522D0AD4100A370FE /* awsconfiguration.json */,
+				3D6E622E22D0945B00A370FE /* Modules */,
+				3D6E620E22D08EC500A370FE /* AppDelegate.swift */,
+				3D6E621222D08EC500A370FE /* Main.storyboard */,
+				3D6E621522D08EC700A370FE /* Assets.xcassets */,
+				3D6E621722D08EC700A370FE /* LaunchScreen.storyboard */,
+				3D6E621A22D08EC700A370FE /* Info.plist */,
+			);
+			path = AWSMobileHubDemo;
+			sourceTree = "<group>";
+		};
+		3D6E622222D08EC700A370FE /* AWSMobileHubDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E622322D08EC700A370FE /* AWSMobileHubDemoTests.swift */,
+				3D6E622522D08EC700A370FE /* Info.plist */,
+			);
+			path = AWSMobileHubDemoTests;
+			sourceTree = "<group>";
+		};
+		3D6E622E22D0945B00A370FE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7490822E4B156001937C2 /* Analytics */,
+				3D6E623022D0946D00A370FE /* Global */,
+				3D6E623A22D0B10400A370FE /* Main */,
+				3D6E622F22D0946400A370FE /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3D6E622F22D0946400A370FE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7490322E3424B001937C2 /* Multifactor Authentication */,
+				3D6E623F22D0B22600A370FE /* Verify User */,
+				3D6E623922D0B0F200A370FE /* Forgot Password */,
+				3D6E623822D0B0EC00A370FE /* Signup */,
+				3D6E623722D0B0DD00A370FE /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3D6E623022D0946D00A370FE /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E623122D0948000A370FE /* Constants.swift */,
+				3D6E624222D0C7D400A370FE /* Extensions.swift */,
+				3D6E624422D0D04500A370FE /* Global.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3D6E623722D0B0DD00A370FE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E621022D08EC500A370FE /* AWSUserLoginViewController.swift */,
+				3D6E623322D0A94900A370FE /* AWSUserLoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D6E623822D0B0EC00A370FE /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E623B22D0B12D00A370FE /* AWSUserSignUpViewModel.swift */,
+				3D6E623D22D0B13F00A370FE /* AWSUserSignUpViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		3D6E623922D0B0F200A370FE /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E643A22E2B65700A370FE /* ForgotPasswordViewController.swift */,
+				3D6E643C22E3257C00A370FE /* ResetPasswordViewController.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		3D6E623A22D0B10400A370FE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E624622D0DC2D00A370FE /* HomeViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D6E623F22D0B22600A370FE /* Verify User */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E624022D0B24D00A370FE /* VerifyUserViewController.swift */,
+			);
+			path = "Verify User";
+			sourceTree = "<group>";
+		};
+		3DE7490322E3424B001937C2 /* Multifactor Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7490622E34582001937C2 /* MultiFactorAuthViewController.xib */,
+				3DE7490422E3429F001937C2 /* MultiFactorAuthViewController.swift */,
+			);
+			path = "Multifactor Authentication";
+			sourceTree = "<group>";
+		};
+		3DE7490822E4B156001937C2 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7490922E4B173001937C2 /* AnalyticsBuilder.swift */,
+				3DE7490B22E4B18D001937C2 /* AnalyticsConstants.swift */,
+				3DE7490D22E4B2C9001937C2 /* AnalyticsHelper.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		52E18A67ACA8F05B959D1982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C7BC6C3C1ADC1770487BF /* Pods-AWSMobileHubDemo.debug.xcconfig */,
+				6B527E14676C6FB40639F1E7 /* Pods-AWSMobileHubDemo.release.xcconfig */,
+				1CF8851C93A77DDE99972F88 /* Pods-AWSMobileHubDemoTests.debug.xcconfig */,
+				C21F55AF9C4EB6B480E3DC15 /* Pods-AWSMobileHubDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6E620A22D08EC500A370FE /* AWSMobileHubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6E622822D08EC700A370FE /* Build configuration list for PBXNativeTarget "AWSMobileHubDemo" */;
+			buildPhases = (
+				DC57CAC2E7434A2E5FE03D97 /* [CP] Check Pods Manifest.lock */,
+				3D6E620722D08EC500A370FE /* Sources */,
+				3D6E620822D08EC500A370FE /* Frameworks */,
+				3D6E620922D08EC500A370FE /* Resources */,
+				DC797A8EC2D1D88563389C32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSMobileHubDemo;
+			productName = AWSMobileHubDemo;
+			productReference = 3D6E620B22D08EC500A370FE /* AWSMobileHubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D6E621E22D08EC700A370FE /* AWSMobileHubDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6E622B22D08EC700A370FE /* Build configuration list for PBXNativeTarget "AWSMobileHubDemoTests" */;
+			buildPhases = (
+				9CC46C231DBAD7F75F5C7C36 /* [CP] Check Pods Manifest.lock */,
+				3D6E621B22D08EC700A370FE /* Sources */,
+				3D6E621C22D08EC700A370FE /* Frameworks */,
+				3D6E621D22D08EC700A370FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6E622122D08EC700A370FE /* PBXTargetDependency */,
+			);
+			name = AWSMobileHubDemoTests;
+			productName = AWSMobileHubDemoTests;
+			productReference = 3D6E621F22D08EC700A370FE /* AWSMobileHubDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6E620322D08EC500A370FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mahesh Sonaiya";
+				TargetAttributes = {
+					3D6E620A22D08EC500A370FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3D6E621E22D08EC700A370FE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3D6E620A22D08EC500A370FE;
+					};
+				};
+			};
+			buildConfigurationList = 3D6E620622D08EC500A370FE /* Build configuration list for PBXProject "AWSMobileHubDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6E620222D08EC500A370FE;
+			productRefGroup = 3D6E620C22D08EC500A370FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6E620A22D08EC500A370FE /* AWSMobileHubDemo */,
+				3D6E621E22D08EC700A370FE /* AWSMobileHubDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6E620922D08EC500A370FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE7490722E34582001937C2 /* MultiFactorAuthViewController.xib in Resources */,
+				3D6E623622D0AD4200A370FE /* awsconfiguration.json in Resources */,
+				3D6E621922D08EC700A370FE /* LaunchScreen.storyboard in Resources */,
+				3D6E621622D08EC700A370FE /* Assets.xcassets in Resources */,
+				3D6E621422D08EC500A370FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6E621D22D08EC700A370FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC46C231DBAD7F75F5C7C36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSMobileHubDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC57CAC2E7434A2E5FE03D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSMobileHubDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC797A8EC2D1D88563389C32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AWSMobileHubDemo/Pods-AWSMobileHubDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSMobileHubDemo/Pods-AWSMobileHubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6E620722D08EC500A370FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6E621122D08EC500A370FE /* AWSUserLoginViewController.swift in Sources */,
+				3DE7490C22E4B18D001937C2 /* AnalyticsConstants.swift in Sources */,
+				3D6E623E22D0B13F00A370FE /* AWSUserSignUpViewController.swift in Sources */,
+				3D6E643B22E2B65700A370FE /* ForgotPasswordViewController.swift in Sources */,
+				3D6E643D22E3257C00A370FE /* ResetPasswordViewController.swift in Sources */,
+				3D6E623422D0A94900A370FE /* AWSUserLoginViewModel.swift in Sources */,
+				3DE7490522E3429F001937C2 /* MultiFactorAuthViewController.swift in Sources */,
+				3DE7490A22E4B173001937C2 /* AnalyticsBuilder.swift in Sources */,
+				3DE7490E22E4B2C9001937C2 /* AnalyticsHelper.swift in Sources */,
+				3D6E624322D0C7D400A370FE /* Extensions.swift in Sources */,
+				3D6E624122D0B24D00A370FE /* VerifyUserViewController.swift in Sources */,
+				3D6E624722D0DC2D00A370FE /* HomeViewController.swift in Sources */,
+				3D6E620F22D08EC500A370FE /* AppDelegate.swift in Sources */,
+				3D6E623222D0948000A370FE /* Constants.swift in Sources */,
+				3D6E623C22D0B12D00A370FE /* AWSUserSignUpViewModel.swift in Sources */,
+				3D6E624522D0D04500A370FE /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6E621B22D08EC700A370FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6E622422D08EC700A370FE /* AWSMobileHubDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D6E622122D08EC700A370FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6E620A22D08EC500A370FE /* AWSMobileHubDemo */;
+			targetProxy = 3D6E622022D08EC700A370FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D6E621222D08EC500A370FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6E621322D08EC500A370FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6E621722D08EC700A370FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6E621822D08EC700A370FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6E622622D08EC700A370FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D6E622722D08EC700A370FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6E622922D08EC700A370FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9C7BC6C3C1ADC1770487BF /* Pods-AWSMobileHubDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AWSMobileHubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotus.AWSMobileHubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D6E622A22D08EC700A370FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B527E14676C6FB40639F1E7 /* Pods-AWSMobileHubDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AWSMobileHubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotus.AWSMobileHubDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D6E622C22D08EC700A370FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF8851C93A77DDE99972F88 /* Pods-AWSMobileHubDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWSMobileHubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotus.AWSMobileHubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSMobileHubDemo.app/AWSMobileHubDemo";
+			};
+			name = Debug;
+		};
+		3D6E622D22D08EC700A370FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21F55AF9C4EB6B480E3DC15 /* Pods-AWSMobileHubDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AWSMobileHubDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotus.AWSMobileHubDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSMobileHubDemo.app/AWSMobileHubDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6E620622D08EC500A370FE /* Build configuration list for PBXProject "AWSMobileHubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6E622622D08EC700A370FE /* Debug */,
+				3D6E622722D08EC700A370FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6E622822D08EC700A370FE /* Build configuration list for PBXNativeTarget "AWSMobileHubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6E622922D08EC700A370FE /* Debug */,
+				3D6E622A22D08EC700A370FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6E622B22D08EC700A370FE /* Build configuration list for PBXNativeTarget "AWSMobileHubDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6E622C22D08EC700A370FE /* Debug */,
+				3D6E622D22D08EC700A370FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6E620322D08EC500A370FE /* Project object */;
+}
